@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- الصفحة الرئيسية -->
+  <url>
+    <loc>https://studio-alnubalaa.com/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://studio-alnubalaa.com/" />
+  </url>
+
+  <!-- صفحة كل الأعمال -->
+  <url>
+    <loc>https://studio-alnubalaa.com/#works</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- صفحة الفنانين -->
+  <url>
+    <loc>https://studio-alnubalaa.com/#artists</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- صفحة الطلبات -->
+  <url>
+    <loc>https://studio-alnubalaa.com/#booking</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- الأعمال الصوتية -->
+  <url>
+    <loc>https://studio-alnubalaa.com/#track-احلى-خريجة</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://studio-alnubalaa.com/#track-للشعر-سيرة</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://studio-alnubalaa.com/#track-حان-ميعاد-الفرح</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://studio-alnubalaa.com/#track-مكس-أغنية-وطن</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- الفنانون -->
+  <url>
+    <loc>https://studio-alnubalaa.com/#artist-أحمد-المنشد</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://studio-alnubalaa.com/#artist-فهد-المطرب</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://studio-alnubalaa.com/#artist-المهندس-حسام</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://studio-alnubalaa.com/#artist-المهندس-خالد</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
