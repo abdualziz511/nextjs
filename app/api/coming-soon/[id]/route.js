@@ -10,12 +10,31 @@ export async function PUT(request, { params }) {
   return NextResponse.json(data);
 }
 
-export async function DELETE(request, { params }) {
-  const {id} = params;
-  console.log('Deleting coming soon item with id:', id);
-  const supabase = createServerClient();
-  const { error } = await supabase.from('coming_soon').delete().eq('id', id);
-  if (error) return NextResponse.json({ error: error.message }, { status: 500 });
-  return NextResponse.json({ success: true });
+// export async function DELETE(request, { params }) {
+//   const {id} = params;
+//   console.log('Deleting coming soon item with id:', id);
+//   const supabase = createServerClient();
+//   const { error } = await supabase.from('coming_soon').delete().eq('id', id);
+//   if (error) return NextResponse.json({ error: error.message }, { status: 500 });
+//   return NextResponse.json({ success: true });
+// }
+
+import { NextResponse } from "next/server";
+
+export async function DELETE(request, context) {
+  console.log("URL:", request.url);
+
+  console.log("context:", context);
+
+  console.log("params:", context.params);
+
+  const params = await context.params;
+
+  console.log("awaited params:", params);
+
+  return NextResponse.json({
+    url: request.url,
+    params
+  });
 }
 
