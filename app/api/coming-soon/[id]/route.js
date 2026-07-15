@@ -12,6 +12,7 @@ export async function PUT(request, { params }) {
 
 export async function DELETE(request, { params }) {
   const {id} = params;
+  console.log('Deleting coming soon item with id:', id);
   const supabase = createServerClient();
   const { error } = await supabase.from('coming_soon').delete().eq('id', id);
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });
