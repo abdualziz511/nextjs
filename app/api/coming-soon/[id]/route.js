@@ -19,7 +19,7 @@ export async function PUT(request, { params }) {
 //   return NextResponse.json({ success: true });
 // }
 
-import { NextResponse } from "next/server";
+// import { NextResponse } from "next/server";
 
 export async function DELETE(request, context) {
   console.log("URL:", request.url);
